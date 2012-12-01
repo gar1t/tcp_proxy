@@ -1,0 +1,6 @@
+%%% -*-erlang-*-
+[{tcp_proxy,
+  [
+   {upstream, {"localhost", 8888}},
+   {local_port, 9999}
+  ]}].

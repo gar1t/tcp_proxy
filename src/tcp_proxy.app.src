@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, tcp_proxy,
+ [{description, "tcp_proxy app"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {mod, {e2_application, [tcp_proxy_app]}},
+  {env, []},
+  {applications, [kernel, stdlib, sasl]}]}.
